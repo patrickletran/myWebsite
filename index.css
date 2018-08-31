@@ -1,0 +1,107 @@
+
+html {
+	background-color: white;
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+body {
+  background-color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.column2 {
+  float:left;
+  width:50%
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(230, 228, 228);
+    background-image: url("https://media.giphy.com/media/l0HlCXTsHAgpNNEkw/giphy.gif");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    font-family: Arial;
+}
+
+.topnav {
+    padding: 20px;  
+    overflow: hidden;
+    background-color:rgb(32, 31, 31);
+    border-bottom: ridge;
+    border-bottom-color: white;
+    font-family: arial;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+.topnav a:hover {
+  color:black;
+  background-color: white;
+}
+
+h1 {
+	color: white;
+	text-align:center;
+	text-shadow: 3px 2px grey;
+	font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+	color: black;
+  padding: 20px;
+  text-align: center;
+  font-style: bold;
+  font-family: arial;
+}
+h3 {
+	color: rgb(32, 31, 31);
+  padding: 30px;
+	text-align: center;
+  font-style: bold;
+  font-family: arial;
+}
+p {
+  color: black;
+  font-family: arial;
+}
+ul.a {
+	color: white;
+	list-style-type: circle;
+  font-family: arial;
+}
+li {
+  color: black;
+  font-family: arial;
+}
+a:link, a:visited {
+	color: white;
+	display: inline-block;
+}
+
+img {
+  border: solid;
+  border-color: rgb(32, 31, 31);
+}
+
+
+
